@@ -286,11 +286,12 @@ footer input[type=submit]{
     }
     
     .first-div .first-p{
-     top: -45%;   
+     top: -50%;   
     }
    
     .first-div button{
         width: 50%!important;
+        margin: 20px;
     }
     footer .child{
         width: 80%;
