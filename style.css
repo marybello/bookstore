@@ -90,12 +90,11 @@ header .second-list i{
  height: 400px;
     background-size: 100% 100%;
     padding: 2.5rem;
+    text-align: center;
 
     
 }
 .first-div h1{
-   position:relative;
-   left: 20%;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -115,30 +114,28 @@ header .second-list i{
     7px 9px black;
 font: bold 60px Helvetica, Arial, Sans-Serif;
 line-height: 74px;
-position: absolute;
-top: 25%;
-left: 15%;
+position: relative;
+top: -25%;
+
     
 }
 .second-p{
 line-height: 222px;
-position: absolute;
-left: 20%;
-top: 22%;
 color: white; 
    font: bold 200px Helvetica, Arial, Sans-Serif;
    text-shadow: 1px 1px black, 
                 1px 1px black,
                 3px 4px black, 
                 7px 9px black;
+    
 
 }
 .third-p{
 font: bold 60px Helvetica, Arial, Sans-Serif;
 line-height: 73px;
-position: absolute; 
+/*position: absolute; 
  left: 37%;
- top:40%; 
+ top:40%; */
 text-shadow: 1px 1px black, 
 1px 1px black,
 3px 4px black, 
@@ -165,12 +162,8 @@ text-shadow: 1px 1px black,
 .second-div img{
     width: 200px;
     height: 300px;
-   /* box-shadow: 2px 0px 0 rgb(65, 65, 65),
-    2px 10px 5px hsl(0, 0%, 80%),
-    2px 10px 5px hsl(0, 0%, 80%),
-    2px 10px 5px hsl(0, 0%, 80%); */
-    box-shadow: 0px 12px  7px rgba(0,0,0,0.2);
-    margin-right: 5%;
+    box-shadow: 0px 12px  7px rgba(19, 18, 18, 0.2);
+    margin-right:5%;
 }
 .second-div aside{
     position: relative;
@@ -237,28 +230,23 @@ text-shadow: 1px 1px black,
     header .first-list{
         display: none;
     }
+    header ul li{
+        margin-left: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
     .dropdown{
         display: inline-block;
         margin: 10px;
     }
-    .first-div h1{
-        left: 13%;
+    .first-div{
+        padding: 10px;
     }
     .first-div .first-p{
-left: 3%;
-top: 23%;
+     top: -40%;   
     }
-    .first-div .second-p{
-left: 21%;
-top: 21%;
-    }
-    .first-div .third-p{
-left: 73%;
-
-    }
+   
     .first-div button{
         width: 50%!important;
-        top: 53% !important;
-        left: 21%!important;
     }
 }
