@@ -133,9 +133,6 @@ color: white;
 .third-p{
 font: bold 60px Helvetica, Arial, Sans-Serif;
 line-height: 73px;
-/*position: absolute; 
- left: 37%;
- top:40%; */
 text-shadow: 1px 1px black, 
 1px 1px black,
 3px 4px black, 
@@ -186,7 +183,7 @@ text-shadow: 1px 1px black,
 .second-div aside button{
     padding: 10px;
     width: 70%;
-    border: 1px solid black;
+    border: 0.5px solid black;
     display: block;
     margin-top: 2rem;
     background-color: white;
@@ -196,7 +193,52 @@ text-shadow: 1px 1px black,
     background-color: hsl(0, 0%, 10%);
     color: hsl(0, 0%, 80%);
 }
-
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid black;
+}
+footer .child{
+    width: 23%;
+    margin: 10px;
+}
+footer ul{
+    list-style-type: none;
+    cursor: pointer;
+    
+}
+footer .child i{
+    font-size: 27px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+}
+footer ul li{
+    margin-top: 5px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+footer input{
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+}
+footer input[type="email"]{
+    width: 70%;
+}
+footer input[type=submit]{
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 
 /* media query */
 @media (max-width:480px){
@@ -248,5 +290,8 @@ text-shadow: 1px 1px black,
    
     .first-div button{
         width: 50%!important;
+    }
+    footer .child{
+        width: 80%;
     }
 }
