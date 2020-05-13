@@ -245,7 +245,8 @@ footer input[type=submit]{
 /* media query */
 @media (max-width:480px){
     .first-div{
-        height: 300px;
+        height: auto;
+        padding: 2px;
     }
     .second-div .child{
         display: block!important;
@@ -283,9 +284,7 @@ footer input[type=submit]{
         display: inline-block;
         margin: 10px;
     }
-    .first-div{
-        padding: 2px;
-    }
+    
     .first-div .first-p{
      top: -45%;   
     }
@@ -296,4 +295,8 @@ footer input[type=submit]{
     footer .child{
         width: 80%;
     }
+
+}
+@media(min-width:250px){
+
 }
